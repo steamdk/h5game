@@ -1,0 +1,125 @@
+
+ranshaoping.png
+size: 205,723
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+fw
+  rotate: false
+  xy: 12, 547
+  size: 166, 166
+  orig: 166, 166
+  offset: 0, 0
+  index: -1
+huo_01
+  rotate: true
+  xy: 117, 379
+  size: 51, 76
+  orig: 102, 102
+  offset: 24, 2
+  index: -1
+huo_02
+  rotate: true
+  xy: 112, 197
+  size: 50, 80
+  orig: 102, 102
+  offset: 25, 3
+  index: -1
+huo_03
+  rotate: true
+  xy: 109, 72
+  size: 52, 84
+  orig: 102, 102
+  offset: 25, 2
+  index: -1
+huo_04
+  rotate: true
+  xy: 12, 160
+  size: 53, 87
+  orig: 102, 102
+  offset: 24, 2
+  index: -1
+huo_05
+  rotate: true
+  xy: 12, 287
+  size: 51, 90
+  orig: 102, 102
+  offset: 24, 1
+  index: -1
+huo_06
+  rotate: true
+  xy: 12, 348
+  size: 52, 91
+  orig: 102, 102
+  offset: 23, 2
+  index: -1
+huo_07
+  rotate: true
+  xy: 12, 410
+  size: 58, 93
+  orig: 102, 102
+  offset: 20, 2
+  index: -1
+huo_08
+  rotate: false
+  xy: 122, 440
+  size: 58, 97
+  orig: 102, 102
+  offset: 19, 1
+  index: -1
+huo_09
+  rotate: true
+  xy: 12, 478
+  size: 59, 98
+  orig: 102, 102
+  offset: 19, 1
+  index: -1
+huo_10
+  rotate: true
+  xy: 12, 94
+  size: 56, 85
+  orig: 102, 102
+  offset: 21, 1
+  index: -1
+huo_11
+  rotate: true
+  xy: 12, 29
+  size: 55, 85
+  orig: 102, 102
+  offset: 22, 1
+  index: -1
+huo_12
+  rotate: true
+  xy: 12, 223
+  size: 54, 88
+  orig: 102, 102
+  offset: 23, 1
+  index: -1
+huo_13
+  rotate: true
+  xy: 111, 134
+  size: 53, 74
+  orig: 102, 102
+  offset: 23, 1
+  index: -1
+huo_14
+  rotate: true
+  xy: 115, 317
+  size: 52, 75
+  orig: 102, 102
+  offset: 23, 0
+  index: -1
+huo_15
+  rotate: true
+  xy: 109, 10
+  size: 52, 72
+  orig: 102, 102
+  offset: 23, 2
+  index: -1
+huo_16
+  rotate: true
+  xy: 114, 257
+  size: 50, 75
+  orig: 102, 102
+  offset: 24, 2
+  index: -1

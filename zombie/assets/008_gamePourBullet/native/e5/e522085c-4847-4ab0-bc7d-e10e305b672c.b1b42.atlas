@@ -1,0 +1,27 @@
+
+baoqi.png
+size: 261,716
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+TX_xuqi_0001
+  rotate: true
+  xy: 12, 10
+  size: 228, 237
+  orig: 250, 280
+  offset: 10, 21
+  index: -1
+TX_xuqi_0002
+  rotate: true
+  xy: 12, 482
+  size: 224, 235
+  orig: 250, 280
+  offset: 14, 23
+  index: -1
+TX_xuqi_0003
+  rotate: true
+  xy: 12, 248
+  size: 224, 232
+  orig: 250, 280
+  offset: 14, 26
+  index: -1

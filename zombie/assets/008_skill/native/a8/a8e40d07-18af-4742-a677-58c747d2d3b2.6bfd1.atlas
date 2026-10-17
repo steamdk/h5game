@@ -1,0 +1,111 @@
+
+1-4_bao.png
+size: 332,332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1212
+  rotate: false
+  xy: 2, 207
+  size: 123, 122
+  orig: 128, 128
+  offset: 2, 6
+  index: -1
+fq3
+  rotate: true
+  xy: 62, 77
+  size: 29, 30
+  orig: 33, 32
+  offset: 2, 1
+  index: -1
+fq4
+  rotate: false
+  xy: 86, 108
+  size: 30, 30
+  orig: 33, 32
+  offset: 1, 1
+  index: -1
+fq5
+  rotate: true
+  xy: 86, 140
+  size: 31, 32
+  orig: 33, 32
+  offset: 1, 0
+  index: -1
+fq6
+  rotate: false
+  xy: 86, 173
+  size: 32, 32
+  orig: 33, 32
+  offset: 0, 0
+  index: -1
+g
+  rotate: false
+  xy: 309, 309
+  size: 20, 20
+  orig: 24, 24
+  offset: 2, 2
+  index: -1
+lizi
+  rotate: true
+  xy: 309, 297
+  size: 10, 12
+  orig: 11, 12
+  offset: 1, 0
+  index: -1
+zibao_0
+  rotate: true
+  xy: 2, 125
+  size: 80, 82
+  orig: 93, 104
+  offset: 7, 13
+  index: -1
+zibao_1
+  rotate: false
+  xy: 216, 73
+  size: 85, 83
+  orig: 93, 104
+  offset: 3, 13
+  index: -1
+zibao_2
+  rotate: true
+  xy: 127, 155
+  size: 86, 87
+  orig: 93, 104
+  offset: 3, 12
+  index: -1
+zibao_3
+  rotate: true
+  xy: 218, 244
+  size: 85, 89
+  orig: 93, 104
+  offset: 3, 10
+  index: -1
+zibao_4
+  rotate: true
+  xy: 127, 243
+  size: 86, 89
+  orig: 93, 104
+  offset: 3, 7
+  index: -1
+zibao_5
+  rotate: true
+  xy: 218, 158
+  size: 84, 90
+  orig: 93, 104
+  offset: 4, 7
+  index: -1
+zibao_6
+  rotate: false
+  xy: 120, 99
+  size: 72, 54
+  orig: 93, 104
+  offset: 6, 41
+  index: -1
+zibao_7
+  rotate: false
+  xy: 2, 79
+  size: 58, 44
+  orig: 93, 104
+  offset: 15, 47
+  index: -1

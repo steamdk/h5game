@@ -1,0 +1,55 @@
+
+siwan.png
+size: 136,136
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bz2
+  rotate: false
+  xy: 99, 94
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+bz4
+  rotate: true
+  xy: 67, 15
+  size: 46, 53
+  orig: 46, 53
+  offset: 0, 0
+  index: -1
+bz6
+  rotate: true
+  xy: 34, 84
+  size: 47, 63
+  orig: 47, 63
+  offset: 0, 0
+  index: -1
+bz8
+  rotate: true
+  xy: 2, 2
+  size: 48, 63
+  orig: 48, 63
+  offset: 0, 0
+  index: -1
+gutou2
+  rotate: true
+  xy: 34, 63
+  size: 19, 58
+  orig: 19, 58
+  offset: 0, 0
+  index: -1
+gutou3
+  rotate: false
+  xy: 2, 52
+  size: 30, 79
+  orig: 30, 79
+  offset: 0, 0
+  index: -1
+yeti
+  rotate: false
+  xy: 94, 71
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
