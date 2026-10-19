@@ -1,0 +1,279 @@
+
+chaojv.png
+size: 1024,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bo
+  rotate: false
+  xy: 866, 760
+  size: 133, 128
+  orig: 140, 140
+  offset: 2, 7
+  index: -1
+images/ci_01
+  rotate: false
+  xy: 12, 991
+  size: 42, 11
+  orig: 102, 34
+  offset: 58, 6
+  index: -1
+images/ci_02
+  rotate: false
+  xy: 113, 988
+  size: 52, 14
+  orig: 102, 34
+  offset: 47, 7
+  index: -1
+images/ci_03
+  rotate: false
+  xy: 572, 976
+  size: 84, 26
+  orig: 102, 34
+  offset: 15, 2
+  index: -1
+images/ci_04
+  rotate: false
+  xy: 287, 978
+  size: 90, 24
+  orig: 102, 34
+  offset: 4, 5
+  index: -1
+images/ci_05
+  rotate: false
+  xy: 668, 976
+  size: 64, 26
+  orig: 102, 34
+  offset: 2, 7
+  index: -1
+images/ci_06
+  rotate: false
+  xy: 941, 972
+  size: 36, 30
+  orig: 102, 34
+  offset: 2, 3
+  index: -1
+images/yan_01
+  rotate: false
+  xy: 491, 926
+  size: 45, 42
+  orig: 128, 128
+  offset: 37, 0
+  index: -1
+images/yan_03
+  rotate: false
+  xy: 775, 910
+  size: 79, 56
+  orig: 128, 128
+  offset: 21, 0
+  index: -1
+images/yan_05
+  rotate: false
+  xy: 12, 879
+  size: 97, 59
+  orig: 128, 128
+  offset: 9, 0
+  index: -1
+images/yan_07
+  rotate: false
+  xy: 236, 867
+  size: 105, 61
+  orig: 128, 128
+  offset: 7, 0
+  index: -1
+images/yan_09
+  rotate: false
+  xy: 353, 867
+  size: 109, 61
+  orig: 128, 128
+  offset: 8, 0
+  index: -1
+images/yan_11
+  rotate: false
+  xy: 121, 868
+  size: 103, 60
+  orig: 128, 128
+  offset: 18, 0
+  index: -1
+images/yan_13
+  rotate: false
+  xy: 661, 913
+  size: 102, 53
+  orig: 128, 128
+  offset: 21, 0
+  index: -1
+images/yan_15
+  rotate: false
+  xy: 548, 924
+  size: 101, 42
+  orig: 128, 128
+  offset: 22, 0
+  index: -1
+images/yanwu_01
+  rotate: false
+  xy: 744, 976
+  size: 118, 26
+  orig: 128, 32
+  offset: 6, 0
+  index: -1
+images/yanwu_02
+  rotate: false
+  xy: 225, 938
+  size: 121, 30
+  orig: 128, 32
+  offset: 4, 0
+  index: -1
+images/yanwu_03
+  rotate: false
+  xy: 358, 938
+  size: 121, 30
+  orig: 128, 32
+  offset: 3, 0
+  index: -1
+images/yanwu_04
+  rotate: false
+  xy: 59, 948
+  size: 106, 30
+  orig: 128, 32
+  offset: 6, 1
+  index: -1
+liang_00000
+  rotate: false
+  xy: 866, 907
+  size: 59, 59
+  orig: 67, 67
+  offset: 4, 4
+  index: -1
+shen
+  rotate: false
+  xy: 474, 831
+  size: 100, 83
+  orig: 100, 87
+  offset: 0, 0
+  index: -1
+shoubi
+  rotate: true
+  xy: 389, 978
+  size: 24, 114
+  orig: 24, 114
+  offset: 0, 0
+  index: -1
+tou1
+  rotate: true
+  xy: 937, 898
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: false
+  xy: 874, 976
+  size: 55, 26
+  orig: 55, 26
+  offset: 0, 0
+  index: -1
+tou3
+  rotate: true
+  xy: 66, 991
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+tou4
+  rotate: false
+  xy: 90, 991
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+tui1
+  rotate: true
+  xy: 177, 939
+  size: 35, 36
+  orig: 35, 36
+  offset: 0, 0
+  index: -1
+tui2
+  rotate: true
+  xy: 232, 980
+  size: 22, 43
+  orig: 22, 47
+  offset: 0, 4
+  index: -1
+tui3
+  rotate: true
+  xy: 12, 949
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+y-g
+  rotate: false
+  xy: 177, 984
+  size: 43, 18
+  orig: 45, 20
+  offset: 1, 1
+  index: -1
+yuanhuan/yuanhuan_00000
+  rotate: true
+  xy: 737, 618
+  size: 132, 134
+  orig: 140, 140
+  offset: 4, 3
+  index: -1
+yuanhuan/yuanhuan_00001
+  rotate: true
+  xy: 300, 726
+  size: 131, 134
+  orig: 140, 140
+  offset: 4, 3
+  index: -1
+yuanhuan/yuanhuan_00002
+  rotate: true
+  xy: 446, 653
+  size: 131, 134
+  orig: 140, 140
+  offset: 4, 3
+  index: -1
+yuanhuan/yuanhuan_00003
+  rotate: true
+  xy: 592, 631
+  size: 131, 133
+  orig: 140, 140
+  offset: 4, 4
+  index: -1
+yuanhuan/yuanhuan_00004
+  rotate: true
+  xy: 155, 727
+  size: 130, 133
+  orig: 140, 140
+  offset: 4, 4
+  index: -1
+yuanhuan/yuanhuan_00005
+  rotate: true
+  xy: 12, 729
+  size: 129, 131
+  orig: 140, 140
+  offset: 5, 5
+  index: -1
+yuanhuan/yuanhuan_00006
+  rotate: true
+  xy: 724, 772
+  size: 128, 130
+  orig: 140, 140
+  offset: 6, 6
+  index: -1
+yuanhuan/yuanhuan_00007
+  rotate: false
+  xy: 586, 794
+  size: 126, 109
+  orig: 140, 140
+  offset: 6, 27
+  index: -1
+zui
+  rotate: false
+  xy: 515, 978
+  size: 45, 24
+  orig: 45, 24
+  offset: 0, 0
+  index: -1

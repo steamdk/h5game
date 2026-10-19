@@ -1154,12 +1154,12 @@ define("scripts/factory/fruit.js", function(exports){
 	
 	var infos = {
 		// type: [ imageSrc, width, height, radius, fixAngle, isReverse, juiceColor ]
-		boom: [ "https://r2bucket.billybobgames.org/1-FruitNinja/images/fruit/boom.png", 66, 68, 26, 0, 0, null ],
-		peach: [ "https://r2bucket.billybobgames.org/1-FruitNinja/images/fruit/peach.png", 62, 59, 37, -50, 0, "#e6c731" ],
-		sandia: [ "https://r2bucket.billybobgames.org/1-FruitNinja/images/fruit/sandia.png", 98, 85, 38, -100, 0, "#c00" ],
-		apple: [ "https://r2bucket.billybobgames.org/1-FruitNinja/images/fruit/apple.png", 66, 66, 31, -54, 0, "#c8e925" ],
-		banana: [ "https://r2bucket.billybobgames.org/1-FruitNinja/images/fruit/banana.png", 126, 50, 43, 90, 0, null ],
-		basaha: [ "https://r2bucket.billybobgames.org/1-FruitNinja/images/fruit/basaha.png", 68, 72, 32, -135, 0, "#c00" ]
+		boom: [ "/g/fruit-ninja/images/fruit/boom.png", 66, 68, 26, 0, 0, null ],
+		peach: [ "/g/fruit-ninja/images/fruit/peach.png", 62, 59, 37, -50, 0, "#e6c731" ],
+		sandia: [ "/g/fruit-ninja/images/fruit/sandia.png", 98, 85, 38, -100, 0, "#c00" ],
+		apple: [ "/g/fruit-ninja/images/fruit/apple.png", 66, 66, 31, -54, 0, "#c8e925" ],
+		banana: [ "/g/fruit-ninja/images/fruit/banana.png", 126, 50, 43, 90, 0, null ],
+		basaha: [ "/g/fruit-ninja/images/fruit/basaha.png", 68, 72, 32, -135, 0, "#c00" ]
 	};
 	
 	// TODO: 是否水果全开？
@@ -3921,7 +3921,7 @@ define("scripts/object/background.js", function(exports){
 	exports.set = function(){
 		image = layer.createImage(
 			"default",
-			"https://r2bucket.billybobgames.org/1-FruitNinja/images/background.jpg",
+			"/g/fruit-ninja/images/background.jpg",
 			0,
 			0,
 			640,

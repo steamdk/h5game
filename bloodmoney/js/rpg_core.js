@@ -13,8 +13,6 @@ function JsExtensions() {
     throw new Error('This is not a class');
 }
 
-
-
 /**
  * Returns a number whose value is limited to the given range.
  *
@@ -1562,9 +1560,6 @@ Bitmap.prototype._drawTextBody = function(text, tx, ty, maxWidth) {
 Bitmap.prototype._onLoad = function() {
     this._image.removeEventListener('load', this._loadListener);
     this._image.removeEventListener('error', this._errorListener);
-    if (typeof window !== 'undefined' && window.__BBG_LOADER__ && window.__BBG_LOADER__.markDone) {
-        window.__BBG_LOADER__.markDone(this._url, false);
-    }
 
     this._renewCanvas();
 
@@ -1637,14 +1632,6 @@ Bitmap.prototype._onError = function() {
     this._image.removeEventListener('load', this._loadListener);
     this._image.removeEventListener('error', this._errorListener);
     this._loadingState = 'error';
-    if (typeof window !== 'undefined') {
-        window.__BBG_ASSET_ERRORS__ = window.__BBG_ASSET_ERRORS__ || [];
-        window.__BBG_ASSET_ERRORS__.push({ url: this._url, type: 'image', time: Date.now() });
-        console.error('[BBG] Failed to load image:', this._url);
-    }
-    if (typeof window !== 'undefined' && window.__BBG_LOADER__ && window.__BBG_LOADER__.markDone) {
-        window.__BBG_LOADER__.markDone(this._url, true);
-    }
 };
 
 /**
@@ -1678,9 +1665,6 @@ Bitmap.request = function(url){
 };
 
 Bitmap.prototype._requestImage = function(url){
-    if (typeof window !== 'undefined' && window.__BBG_LOADER__ && window.__BBG_LOADER__.markStart) {
-        window.__BBG_LOADER__.markStart(url);
-    }
     if(Bitmap._reuseImages.length !== 0){
         this._image = Bitmap._reuseImages.pop();
     }else{
@@ -8178,9 +8162,6 @@ WebAudio.prototype.addStopListener = function(listner) {
  */
 WebAudio.prototype._load = function(url) {
     if (WebAudio._context) {
-        if (typeof window !== 'undefined' && window.__BBG_LOADER__ && window.__BBG_LOADER__.markStart) {
-            window.__BBG_LOADER__.markStart(url);
-        }
         var xhr = new XMLHttpRequest();
         if(Decrypter.hasEncryptedAudio) url = Decrypter.extToEncryptExt(url);
         xhr.open('GET', url);
@@ -8188,19 +8169,9 @@ WebAudio.prototype._load = function(url) {
         xhr.onload = function() {
             if (xhr.status < 400) {
                 this._onXhrLoad(xhr);
-            } else {
-                this._hasError = true;
-                if (typeof window !== 'undefined' && window.__BBG_LOADER__ && window.__BBG_LOADER__.markDone) {
-                    window.__BBG_LOADER__.markDone(this._url, true);
-                }
             }
         }.bind(this);
-        xhr.onerror = this._loader || function(){
-            this._hasError = true;
-            if (typeof window !== 'undefined' && window.__BBG_LOADER__ && window.__BBG_LOADER__.markDone) {
-                window.__BBG_LOADER__.markDone(this._url, true);
-            }
-        }.bind(this);
+        xhr.onerror = this._loader || function(){this._hasError = true;}.bind(this);
         xhr.send();
     }
 };
@@ -8214,7 +8185,7 @@ WebAudio.prototype._onXhrLoad = function(xhr) {
     var array = xhr.response;
     if(Decrypter.hasEncryptedAudio) array = Decrypter.decryptArrayBuffer(array);
     this._readLoopComments(new Uint8Array(array));
-    var onDecodeSuccess = function(buffer) {
+    WebAudio._context.decodeAudioData(array, function(buffer) {
         this._buffer = buffer;
         this._totalTime = buffer.duration;
         if (this._loopLength > 0 && this._sampleRate > 0) {
@@ -8225,23 +8196,7 @@ WebAudio.prototype._onXhrLoad = function(xhr) {
             this._loopLength = this._totalTime;
         }
         this._onLoad();
-    }.bind(this);
-    var onDecodeError = function() {
-        this._hasError = true;
-        if (typeof window !== 'undefined' && window.__BBG_LOADER__ && window.__BBG_LOADER__.markDone) {
-            window.__BBG_LOADER__.markDone(this._url, true);
-        }
-        while (this._loadListeners.length > 0) {
-            var listner = this._loadListeners.shift();
-            listner();
-        }
-    }.bind(this);
-
-    try {
-        WebAudio._context.decodeAudioData(array, onDecodeSuccess, onDecodeError);
-    } catch (e) {
-        onDecodeError();
-    }
+    }.bind(this));
 };
 
 /**
@@ -8349,9 +8304,6 @@ WebAudio.prototype._updatePanner = function() {
  * @private
  */
 WebAudio.prototype._onLoad = function() {
-    if (typeof window !== 'undefined' && window.__BBG_LOADER__ && window.__BBG_LOADER__.markDone) {
-        window.__BBG_LOADER__.markDone(this._url, false);
-    }
     while (this._loadListeners.length > 0) {
         var listner = this._loadListeners.shift();
         listner();

@@ -202,9 +202,9 @@ game.setupAudio = function()
 {
 	if(typeof Audio === "undefined") return;
 	var manifest = {
-		catch: "https://r2bucket.billybobgames.org/9-html5demo7/sound/get%20gold%20coins.mp3",
-		bank: "https://r2bucket.billybobgames.org/9-html5demo7/sound/inverted%20gold%20coins.wav",
-		bgm: "https://r2bucket.billybobgames.org/9-html5demo7/sound/BGM.mp3"
+		catch: "/g/fishjoy/sound/get%20gold%20coins.mp3",
+		bank: "/g/fishjoy/sound/inverted%20gold%20coins.wav",
+		bgm: "/g/fishjoy/sound/BGM.mp3"
 	};
 
 	this.sounds = {};

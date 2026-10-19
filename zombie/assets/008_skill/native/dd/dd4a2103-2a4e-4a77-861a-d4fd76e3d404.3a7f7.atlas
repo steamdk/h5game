@@ -1,0 +1,62 @@
+
+penhuo.png
+size: 284,48
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1_00021
+  rotate: true
+  xy: 229, 15
+  size: 30, 25
+  orig: 61, 55
+  offset: 13, 5
+  index: -1
+1_00023
+  rotate: true
+  xy: 102, 2
+  size: 43, 41
+  orig: 61, 55
+  offset: 9, 5
+  index: -1
+1_00025
+  rotate: false
+  xy: 53, 2
+  size: 47, 43
+  orig: 61, 55
+  offset: 7, 5
+  index: -1
+1_00027
+  rotate: false
+  xy: 2, 3
+  size: 49, 42
+  orig: 61, 55
+  offset: 6, 5
+  index: -1
+1_00029
+  rotate: true
+  xy: 145, 2
+  size: 43, 41
+  orig: 61, 55
+  offset: 6, 5
+  index: -1
+1_00031
+  rotate: false
+  xy: 188, 6
+  size: 39, 39
+  orig: 61, 55
+  offset: 6, 6
+  index: -1
+1_00033
+  rotate: true
+  xy: 256, 16
+  size: 29, 23
+  orig: 61, 55
+  offset: 8, 17
+  index: -1
+1_00035
+  rotate: false
+  xy: 256, 4
+  size: 10, 10
+  orig: 61, 55
+  offset: 14, 21
+  index: -1

@@ -8,7 +8,7 @@ var random = Ucren.randomNumber;
 exports.set = function(){
 	image = layer.createImage(
 		"default",
-		"https://r2bucket.billybobgames.org/1-FruitNinja/images/background.jpg",
+		"/g/fruit-ninja/images/background.jpg",
 		0,
 		0,
 		640,

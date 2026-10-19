@@ -1,0 +1,83 @@
+
+dh1.png
+size: 299,143
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fanu
+  rotate: false
+  xy: 167, 3
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+jtl
+  rotate: true
+  xy: 170, 51
+  size: 90, 70
+  orig: 90, 70
+  offset: 0, 0
+  index: -1
+qiang
+  rotate: true
+  xy: 255, 6
+  size: 48, 40
+  orig: 50, 42
+  offset: 1, 1
+  index: -1
+st
+  rotate: true
+  xy: 242, 78
+  size: 63, 55
+  orig: 63, 55
+  offset: 0, 0
+  index: -1
+tou
+  rotate: true
+  xy: 2, 35
+  size: 106, 82
+  orig: 106, 82
+  offset: 0, 0
+  index: -1
+tou2
+  rotate: true
+  xy: 86, 35
+  size: 106, 82
+  orig: 106, 82
+  offset: 0, 0
+  index: -1
+yiling
+  rotate: false
+  xy: 242, 56
+  size: 27, 20
+  orig: 27, 21
+  offset: 0, 0
+  index: -1
+yout
+  rotate: true
+  xy: 114, 2
+  size: 31, 51
+  orig: 31, 51
+  offset: 0, 0
+  index: -1
+ys
+  rotate: false
+  xy: 2, 2
+  size: 54, 31
+  orig: 54, 31
+  offset: 0, 0
+  index: -1
+zs
+  rotate: false
+  xy: 58, 2
+  size: 54, 31
+  orig: 54, 32
+  offset: 0, 1
+  index: -1
+zuot
+  rotate: true
+  xy: 198, 3
+  size: 46, 55
+  orig: 46, 55
+  offset: 0, 0
+  index: -1
